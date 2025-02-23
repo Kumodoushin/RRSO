@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMG.Domain", "src\PMG.Domai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMG.Domain.Tests", "tests\PMG.Domain.Tests\PMG.Domain.Tests.csproj", "{8D2167EF-4AA0-402B-81FB-2DEF9C6D0207}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{77D8C9EB-3F06-4E26-B3CB-6DC362EA93D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{8D2167EF-4AA0-402B-81FB-2DEF9C6D0207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D2167EF-4AA0-402B-81FB-2DEF9C6D0207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D2167EF-4AA0-402B-81FB-2DEF9C6D0207}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D2167EF-4AA0-402B-81FB-2DEF9C6D0207} = {77D8C9EB-3F06-4E26-B3CB-6DC362EA93D7}
+		{0F285E5A-6CCB-4D49-894F-AB5E9FEC06B6} = {77D8C9EB-3F06-4E26-B3CB-6DC362EA93D7}
 	EndGlobalSection
 EndGlobal
