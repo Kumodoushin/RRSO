@@ -1,6 +1,6 @@
 ﻿namespace PMG.Domain.Tests;
 
-public partial class PercentValueTests
+public partial class PercentTests
 {
 	[Theory]
 	[ClassData(typeof(PercentExpectedRepresentation))]
